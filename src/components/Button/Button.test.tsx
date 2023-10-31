@@ -6,7 +6,7 @@ describe('Button Component', () => {
 		render(<Button>Filled Button</Button>)
 		const button = screen.getByText('Filled Button')
 		expect(button).toBeInTheDocument()
-		expect(button).toHaveClass('text-white font-semibold py-2 px-4 rounded')
+		expect(button).toHaveClass('font-semibold py-2 px-4 rounded')
 	})
 
 	it('should render a filled button by default', () => {

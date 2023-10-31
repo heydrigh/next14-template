@@ -1,7 +1,7 @@
 import { IButtonProps } from './types'
 
 const Button = ({ children, variant = 'filled', ...rest }: IButtonProps) => {
-	const baseClasses = 'text-white font-semibold py-2 px-4 rounded'
+	const baseClasses = 'font-semibold py-2 px-4 rounded'
 
 	const variantClasses = {
 		filled: 'bg-blue-500 hover:bg-blue-600',
