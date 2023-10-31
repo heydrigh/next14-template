@@ -23,7 +23,7 @@ describe('Button Component', () => {
 		expect(button).toBeInTheDocument()
 		expect(button).toHaveClass('border')
 		expect(button).toHaveClass('border-blue-500')
-		expect(button).toHaveClass('text-blue-900')
+		expect(button).toHaveClass('text-indigo-900')
 		expect(button).toHaveClass('hover:bg-blue-100')
 	})
 })

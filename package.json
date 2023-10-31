@@ -7,7 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"test": "jest --coverage"
+		"test": "jest --coverage",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"next": "14.0.1",
@@ -29,6 +30,7 @@
 		"jest-environment-jsdom": "^29.7.0",
 		"postcss": "^8",
 		"tailwindcss": "^3.3.0",
-		"typescript": "^5"
+		"typescript": "^5",
+		"husky": "^8.0.0"
 	}
 }
